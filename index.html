@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Food Recipe</a></li>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            </li>
+            <li class="item button"><a href="#" id="login">Log In</a></li>
+
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+        <div class="arrow-up"></div>
+        <div class="login-form">
+            <form>
+                <label>Username</label>
+                <div>
+                    <input type="text" placeholder=" Enter UserID" id="username">
+                </div>
+                <label>Password</label>
+                <div>
+                    <input type="Password" placeholder="Password" id="password">
+                </div>
+                <div>
+
+                    <input type="submit" value="Log In" onclick="validate()">
+                </div>
+                <div>
+                    <a href="" # 
+                        style="text-decoration: none;position: relative; top: 20px; font-size: 16px;color:black;">Forgot
+                        Password?</a>
+                </div>
+                <div>
+                    <a href="" #
+                        style="text-decoration: none;position: relative; top: 20px; font-size: 16px;color:red;"class="cancel" onclick="removeform()">cancel
+                    </a>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <section>
+       <div class="container">
+<h1 class="brand">Food Recipe Webpage</h1>
+<form action="" class="search-bar">
+    <input type="text" placeholder="search Recipe">
+   
+</form>
+
+<div class="search-result">
+     <!-- <div class="item">
+          <img src="./img-1.jpg" alt="">
+          <div class="flex-container">
+            <h1 class="title">This is a recipe item</h1>
+            <a class="view-btn" href="#">View Recipe</a>
+          </div>
+          <p class="item-data">Calories: 120</p>
+        </div> -->
+<div class="item1">
+    <img src="img/allo.jpg" alt="">
+    <div class="flex-container">
+        <h1 class=" title">This is a Recipe</h1>
+        <a class= "view-btn" href="#">Select Recipe</a>
+    </div>
+    <p class="item-data"> Calories: 120</p>
+        </div>
+<div class="item1">
+    <img src="img/allo1.jpg" alt="">
+    <div class="flex-container">
+        <h1 class=" title">This is a Recipe</h1>
+        <a class= "view-btn" href="#">Select Recipe</a>
+    </div>
+    <p class="item-data"> Calories: 120</p>
+        </div>
+<div class="item1">
+    <img src="img/allo2.jpg" alt="">
+    <div class="flex-container">
+        <h1 class=" title">This is a Recipe</h1>
+        <a class= "view-btn" href="#">Select Recipe</a>
+    </div>
+    <p class="item-data"> Calories: 120</p>
+        </div>
+        </div>
+       </div>
+    </section>
+<script src="main.js"></script>
+</body>
+
+</html>
